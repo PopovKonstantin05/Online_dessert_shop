@@ -1,0 +1,235 @@
+{
+    "items": [
+        {
+            "id": "1",
+            "image": "images/items/waffle.jpg",
+            "name": "Waffle with Berries",
+            "category": "Waffle",
+            "price": 6.5,
+            "description": "Waffles are a popular food item made from a leavened batter or dough cooked between two hot metal plates, known as a waffle iron. This process gives them their distinctive grid-like pattern of deep indentations, which are perfect for holding various toppings",
+            "ingredients": "Flour, eggs, milk, sugar, butter, and a leavening agent",
+            "calories": 291,
+            "weight": 350
+        },
+        {
+            "id": "2",
+            "image": "images/items/creme-brulee.jpg",
+            "name": "Vanilla Bean Crème Brûlée",
+            "category": "Ice cream",
+            "price": 7.0,
+            "description": "Vanilla Bean Crème Brûlée (French for burnt cream) is a classic, luxurious French dessert consisting of a rich, creamy custard base flavored with real vanilla beans, topped with a contrasting layer of hardened, caramelized sugar. The signature feature is the crisp, glass-like sugar crust that is dramatically cracked with a spoon before eating, providing a delightful textural contrast to the smooth, silky custard underneath",
+            "ingredients": "Heavy cream, egg yolks, granulated sugar, vanilla bean, a pinch of salt",
+            "calories": 415,
+            "weight": 235
+        },
+        {
+            "id": "3",
+            "image": "images/items/macaron.jpg",
+            "name": "Macaron Mix of Five",
+            "category": "Cookie",
+            "price": 8.0,
+            "description": "A Macaron Mix of Five refers to a selection box containing five individual French macarons, each typically featuring a different flavor and color. These delicate, bite-sized confections are composed of two light, meringue-based cookie shells (made with almond flour) sandwiched together with a sweet filling such as buttercream, ganache, or jam. The appeal lies in their unique texture—crisp on the outside and soft and chewy in the center—combined with a variety of vibrant flavors (e.g., pistachio, chocolate, strawberry, vanilla, coffee)",
+            "ingredients": "Almond flour, powdered sugar and granulated sugar, egg whites, fillings, flavorings and food coloring",
+            "calories": 350,
+            "weight": 300
+        },
+        {
+            "id": "4",
+            "image": "images/items/tiramisu.jpg",
+            "name": "Classic Tiramisu",
+            "category": "Cake",
+            "price": 5.5,
+            "description": "Classic Tiramisu is a beloved Italian dessert that translates to pick me up, a likely reference to its invigorating combination of espresso and cocoa. It is an elegant, no-bake confection consisting of layers of delicate ladyfinger biscuits (Savoiardi) briefly soaked in strong coffee (often mixed with a liqueur like Marsala wine or rum), and a rich, creamy filling made from a mixture of whipped eggs, sugar, and mascarpone cheese. The dessert is chilled to set and finished with a generous dusting of unsweetened cocoa powder on top, offering a perfect balance of bitter and sweet flavors with contrasting textures",
+            "ingredients": "Ladyfingers biscuits, eggs, sugar, mascarpone cheese, strong brewed coffee (espresso), cocoa powder, and optional Marsala wine/rum",
+            "calories": 370,
+            "weight": 445
+        },
+        {
+            "id": "5",
+            "image": "images/items/baklava.jpg",
+            "name": "Pistachio Baklava",
+            "category": "High desert",
+            "price": 4.0,
+            "description": "Pistachio Baklava is a rich, sweet, and flaky Middle Eastern dessert renowned for its luxurious use of bright green pistachios. It is crafted from many delicate layers of ultra-thin phyllo dough, generously filled with finely crushed pistachios, brushed with melted butter, baked to golden perfection, and finally drenched in a sweet syrup made of sugar, water, and sometimes honey or lemon juice. The result is a delightful contrast of crispy, buttery pastry and a moist, nutty, sweet center",
+            "ingredients": "Phyllo dough, pistachios, butter (or ghee), sugar, water, and often honey or lemon juice",
+            "calories": 350,
+            "weight": 335
+        },
+        {
+            "id": "6",
+            "image": "images/items/meringue.jpg",
+            "name": "Lemon Meringue Pie",
+            "category": "Cake",
+            "price": 5.0,
+            "description": "Lemon Meringue Pie is a classic, show-stopping dessert that offers a perfect balance of tart and sweet flavors across three distinct layers. It starts with a flaky, pre-baked pastry crust, filled with a smooth, bright, and tangy lemon custard (lemon curd). The pie is then generously topped with a billowy cloud of light, sweet meringue, which is often lightly browned or torched to a golden finish. The contrast between the crunchy crust, the smooth filling, and the fluffy top is what makes this a widely loved dessert",
+            "ingredients": "Pie crust (pastry), eggs (yolks for filling, whites for meringue), sugar, water, cornstarch, lemon juice, lemon zest, and butter",
+            "calories": 362,
+            "weight": 478
+        },
+        {
+            "id": "7",
+            "image": "images/items/cake.jpg",
+            "name": "Red Velvet Cake",
+            "category": "Cake",
+            "price": 4.5,
+            "description": "Red Velvet Cake is a dramatic, Southern U.S. classic known for its striking deep red, reddish-brown, or crimson color contrasted with a white frosting. It has a mild cocoa flavor and a tender, moist, and fluffy crumb, thanks to the chemical reaction between the buttermilk and vinegar used in the batter. Traditionally, the cake is paired with a creamy and slightly tangy cream cheese frosting, which perfectly complements the subtle flavor profile of the cake itself",
+            "ingredients": "All-purpose flour, sugar, buttermilk, butter, eggs, cocoa powder, vinegar, baking soda, red food coloring, and cream cheese for the frosting",
+            "calories": 415,
+            "weight": 325
+        },
+        {
+            "id": "8",
+            "image": "images/items/brownie.jpg",
+            "name": "Salted Caramel Brownie",
+            "category": "Cake",
+            "price": 4.5,
+            "description": "A Salted Caramel Brownie is a decadent, indulgent dessert that combines the rich intensity of a classic chocolate brownie with the sweet and savory complexity of salted caramel. The brownie itself typically has a dense, fudgy texture. Layers or swirls of sticky, golden, salted caramel sauce are usually baked into or drizzled over the top of the brownie base, creating a perfect balance of deep chocolate flavor and a sweet-and-salty finish",
+            "ingredients": "Butter, sugar, eggs, cocoa powder, flour, chocolate, cream, salt (for caramel), and vanilla extract",
+            "calories": 395,
+            "weight": 370
+        },
+        {
+            "id": "9",
+            "image": "images/items/panna-cotta.jpg",
+            "name": "Vanilla Panna Cotta",
+            "category": "Ice cream",
+            "price": 6.5,
+            "description": "Vanilla Panna Cotta (Italian for cooked cream) is a simple yet elegant Italian dessert originating from the Piedmont region. It is a light, creamy, and smooth custard-like dessert made by simmering heavy cream, milk, and sugar, and then setting it with gelatin. The flavor profile is centered entirely on the delicate essence of vanilla bean. Once chilled and set, it is often inverted from its mold and served with a simple fruit coulis (sauce), berries, or a caramel drizzle, offering a silky texture that gently melts in the mouth",
+            "ingredients": "Heavy cream, milk, granulated sugar, gelatin (or agar-agar), and vanilla bean/extract",
+            "calories": 305,
+            "weight": 270
+        },
+        {
+            "id": "10",
+            "image": "images/items/cheesecake.jpg",
+            "name": "Cheesecake",
+            "category": "Cake",
+            "price": 7.75,
+            "description": "Cheesecake is a classic dessert consisting of a rich, creamy filling made from soft fresh cheese (most commonly cream cheese), eggs, and sugar, typically resting upon a base or crust made of crushed cookies, graham crackers, or pastry. The dessert may be baked (like the famous New York-style cheesecake) or unbaked and is usually served chilled. It is renowned for its smooth, dense texture and rich flavor, often enhanced with vanilla or lemon zest, and can be topped with fruit, sauces, or chocolate",
+            "ingredients": "Cream cheese, sugar, eggs, a crust (made of graham crackers/biscuits and butter), and often sour cream or heavy cream, vanilla, or lemon zest",
+            "calories": 405,
+            "weight": 430
+        },
+        {
+            "id": "11",
+            "image": "images/items/eclair.jpg",
+            "name": "Eclair",
+            "category": "Pastry",
+            "price": 4,
+            "description": "An Eclair is a classic French pastry, elegant and oblong in shape, made from light choux pastry (pâte à choux). The pastry shell is baked until crisp and hollow inside, then filled with a smooth, rich cream—most commonly vanilla or chocolate pastry cream (crème pâtissière). Finally, the top of the eclair is coated with a layer of smooth fondant icing or chocolate glaze. The name eclair is French for flash of lightning, perhaps suggesting how quickly this delicious pastry is eaten",
+            "ingredients": "Choux pastry (butter, water, flour, eggs), pastry cream (milk, eggs, sugar, cornstarch, vanilla), and fondant icing or chocolate glaze",
+            "calories": 375,
+            "weight": 330
+        },
+        {
+            "id": "12",
+            "image": "images/items/marshmallow.jpg",
+            "name": "Marshmallows",
+            "category": "Marshmallow",
+            "price": 2.5,
+            "description": "Marshmallows are a popular confection that consist of a soft, spongy, and chewy mixture of sugar, water, and gelatin (or sometimes egg whites). They are primarily consumed in the United States and Europe. Modern marshmallows are sweet, airy treats with a unique elastic texture. They are typically used in various ways: eaten as a simple snack, roasted over a fire (famously in S'mores), floated in hot chocolate, or used as an ingredient in baking and confectionery",
+            "ingredients": "Sugar (or corn syrup), water, gelatin, and flavorings (usually vanilla)",
+            "calories": 265,
+            "weight": 125
+        },
+        {
+            "id": "13",
+            "image": "images/items/profiteroles.jpg",
+            "name": "Profiteroles",
+            "category": "Pastry",
+            "price": 5,
+            "description": "Profiteroles are a classic French dessert consisting of small, hollow, round balls of light choux pastry (pâte à choux). These airy pastry puffs are typically filled with sweet ingredients such as whipped cream, pastry cream (crème pâtissière), or ice cream. They are often served stacked into a pyramid (croquembouche) for special occasions, but more commonly served individually and generously drizzled with chocolate sauce or dusted with powdered sugar",
+            "ingredients": "Choux pastry (water, butter, flour, eggs), filling (whipped cream, pastry cream, or ice cream), and chocolate sauce/glaze",
+            "calories": 355,
+            "weight": 245
+        },
+        {
+            "id": "14",
+            "image": "images/items/ice_cream.png",
+            "name": "Ice cream",
+            "category": "Ice cream",
+            "price": 3.25,
+            "description": "Ice cream is a popular frozen dessert made from milk or cream, flavored with a sweetener (sugar) and various other ingredients like vanilla, chocolate, or fruit. The mixture is churned and frozen simultaneously to incorporate air and prevent large ice crystals from forming, resulting in a smooth, creamy, semi-solid foam texture that is enjoyed worldwide in various flavors and forms",
+            "ingredients": "Milk, cream, sugar, and flavorings (vanilla, etc.), sometimes with added egg yolks or stabilizers",
+            "calories": 215,
+            "weight": 175
+        },
+        {
+            "id": "15",
+            "image": "images/items/frasier.jpg",
+            "name": "Frasier",
+            "category": "Cake",
+            "price": 8.5,
+            "description": "The Fraisier is a classic, elegant French cake that celebrates fresh strawberries (fraise means strawberry in French). It typically consists of two layers of light génoise sponge cake, generously soaked in a sweet syrup (sometimes flavored with a liqueur like Kirsch or Grand Marnier). The layers sandwich a creamy filling, traditionally crème mousseline (a rich, butter-based pastry cream), with fresh strawberry halves arranged vertically around the sides to create its iconic visual cross-section. The top is often covered with a thin layer of almond paste or a delicate glaze",
+            "ingredients": "Génoise sponge cake (flour, eggs, sugar, butter), fresh strawberries, crème mousseline/pastry cream (milk, eggs, sugar, butter, vanilla), and sugar syrup",
+            "calories": 317,
+            "weight": 275
+        },
+        {
+            "id": "16",
+            "image": "images/items/madlen.jpg",
+            "name": "Madeleine",
+            "category": "Cookie",
+            "price": 6.5,
+            "description": "A Madeleine is a small, traditional French sponge cake with a distinctive shell-like shape acquired from being baked in specially made molds. They are known for their delicate, buttery texture and subtle, often citrusy (lemon zest) or vanilla, flavor. Though classified as cakes, their size and form make them resemble cookies or biscuits. They hold a significant place in French literature and culture, famously associated with Marcel Proust's In Search of Lost Time",
+            "ingredients": "Butter, eggs, sugar, flour, baking powder, and flavorings (typically lemon zest or vanilla)",
+            "calories": 430,
+            "weight": 375
+        },
+        {
+            "id": "17",
+            "image": "images/items/gratin.jpg",
+            "name": "Gratin de fruits",
+            "category": "Cake",
+            "price": 8,
+            "description": "Gratin de fruits (French for fruit gratin) is a light and elegant French dessert that features a warm medley of fresh mixed berries or assorted fruits. The fruits are arranged in individual gratin dishes, sometimes lightly sweetened, and covered with a simple, thin sabayon (a light custard made with egg yolks, cream, and often a dash of liqueur). The dish is then briefly baked or broiled until the top is golden brown and bubbling. It provides a delightful contrast of warm, tender fruit beneath a delicate, slightly crispy, warm custard topping",
+            "ingredients": "Fresh mixed fruits/berries, egg yolks, cream, sugar, and sometimes liqueur or grated coconut",
+            "calories": 280,
+            "weight": 340
+        },
+        {
+            "id": "18",
+            "image": "images/items/choux.jpg",
+            "name": "Choux",
+            "category": "Pastry",
+            "price": 7,
+            "description": "Choux pastry, or pâte à choux in French, is a light dough used to make various pastries like éclairs, profiteroles, and cream puffs. It is unique because it relies entirely on its high moisture content to puff up during baking, creating a large hollow center without the need for chemical leavening agents (like baking powder). The result is an airy, crisp shell that is ideal for filling with sweet creams or savory ingredients",
+            "ingredients": "Water, butter, all-purpose flour, and eggs",
+            "calories": 280,
+            "weight": 275
+        },
+        {
+            "id": "19",
+            "image": "images/items/opera.jpg",
+            "name": "Opéra",
+            "category": "Cake",
+            "price": 5.5,
+            "description": "The Opéra cake is an exquisite and sophisticated French almond sponge cake, known for its distinct neat layers and rectangular shape. It typically consists of thin layers of Joconde (almond sponge cake) soaked in coffee syrup, layered with a rich coffee buttercream and a smooth chocolate ganache. The cake is traditionally covered with a chocolate glaze and occasionally adorned with gold leaf. It is celebrated for the perfect harmony of almond, coffee, and chocolate flavors in every bite",
+            "ingredients": "Almond sponge cake (Joconde), coffee syrup, coffee buttercream, dark chocolate ganache, and chocolate glaze",
+            "calories": 480,
+            "weight": 475
+        },
+        {
+            "id": "20",
+            "image": "images/items/moti.jpg",
+            "name": "Moti",
+            "category": "Cookie",
+            "price": 7,
+            "description": "Mochi is a traditional Japanese rice cake made from mochigome, a short-grain glutinous rice that is pounded into a paste and molded into various shapes. It has a unique chewy, elastic texture. Mochi is often enjoyed plain, grilled, in soups, or commonly as Daifuku, which is filled with a sweet paste (like red bean paste) or ice cream",
+            "ingredients": "Glutinous rice flour (mochigome), water, sugar, and various fillings/flavorings",
+            "calories": 430,
+            "weight": 380
+        },
+        {
+            "id": "21",
+            "image": "images/items/pudding.jpg",
+            "name": "Chia pudding",
+            "category": "Pudding",
+            "price": 10,
+            "description": "Chia pudding is a healthy and versatile no-cook dish, popular as a breakfast item, snack, or dessert. It is made by soaking tiny chia seeds in a liquid, such as milk (dairy or plant-based) or yogurt, overnight or for several hours. The seeds absorb the liquid and swell, creating a thick, creamy, gel-like texture that is often compared to tapioca pudding. It is highly customizable with various flavorings and toppings like fruits, nuts, or cocoa powder",
+            "ingredients": "Chia seeds, milk (dairy or plant-based), sweetener (maple syrup or honey), and optional flavorings like vanilla extract or fruit",
+            "calories": 230,
+            "weight": 275
+        }
+    ]
+}

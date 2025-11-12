@@ -1,0 +1,273 @@
+.cart {
+    width: 22.4vw;
+    margin: auto 0;
+    margin-top: 0;
+
+    border-radius: 15px;
+    background-color: #FFFFFF;
+
+    padding: 3.2vh 1.3vw;
+
+    .cart-title {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+
+        margin-bottom: 2.5vh;
+
+        .cart-title__text {
+            font-family: "RedHat-Bold";
+            font-size: 3vh;
+
+            color: rgb(255, 68, 0);
+        }
+        
+        .cart-delete {
+            margin-left: auto;
+
+            cursor: pointer;
+
+            .cart-delete__icon {
+                width: 1.95vw;
+                height: 3.48vh;
+            }
+        }
+    }
+
+    .cart-wrapper {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+
+        margin-bottom: 2.5vh;
+
+        .cart-wrapper__title {
+            font-family: "RedHat-Regular";
+            font-size: 2vh;
+
+            color: rgb(100, 100, 100);
+
+            margin-right: auto;
+        }
+
+        .cart-wrapper__cost {
+            font-family: "RedHat-Bold";
+            font-size: 3vh;
+
+            color: rgb(0, 0, 0);
+            
+            margin-left: auto;
+        }
+    }
+
+    .cart-div {
+        display: grid;
+        grid-auto-flow: row-dense;
+        grid-template-columns: 0.5fr 3fr 0.5fr;
+        column-gap: 0.4vw;
+        row-gap: 2.5vh;
+
+        align-items: center;
+
+        background-color: rgb(237, 237, 237);
+        border-radius: 10px;
+        padding: 1.2vh 1vw;
+        margin-bottom: 2.5vh;
+
+        cursor: pointer;
+
+        .cart-div__img {
+            margin-left: auto;
+            width: 1.3vw;
+            height: 1.3vw;
+        }
+
+        .cart-div__text {
+            font-family: "RedHat-Regular";
+            font-size: 1.8vh;
+            font-weight: bold;
+
+            margin: 0 auto;
+        }
+
+        .cart-div__icon {
+            margin-left: auto;
+            width: 1.5vw;
+            height: 1.5vw;
+        }
+
+        .cart-div__txt {
+            font-family: "RedHat-Regular";
+            font-size: 1.7vh;
+
+            text-align: center;
+
+            grid-column: 1 / -1;
+            align-items: center;
+
+            margin-bottom: 1.2vh;
+        }
+    }
+
+    .card-button {
+        width: 100%;
+
+        font-family: "RedHat-SemiBold";
+        font-size: 2vh;
+
+        color: #FFFFFF;
+        background-color: rgb(255, 68, 0);
+
+        border: none;
+        border-radius: 25px;
+
+        padding: 1.5vh 0;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(255, 0, 0);
+        }
+    }
+
+    .emptyCart-wrapper {
+        display: flex;
+        justify-content: center;
+
+        margin: 4vh 0;
+
+        .emptyCart-image {
+            width: 20vw;
+            height: 25vh;
+        }
+    }
+
+    .emptyCart-text {
+        display: flex;
+        justify-content: center;
+
+        font-family: "RedHat-SemiBold";
+        font-size: 2vh;
+
+        color: rgb(255, 165, 55);
+
+        margin-bottom: 2vh;
+    }
+
+    .modal-section {
+        position: fixed;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        background-color: rgba(0, 0, 0, 0.5);
+
+        .modal-wrapper {
+            width: 35vw;
+            height: 75vh;
+            background-color: #FFFFFF;
+
+            overflow-y: auto;
+
+            border-radius: 15px;
+
+            padding: 3.45vh 1.95vw;
+
+            .modal-image {
+                display: flex;
+                flex-direction: row;
+
+                margin-bottom: 3vh;
+
+                .modal-image__done {
+                    width: 3.8vw;
+                    height: 6.7vh;
+                }
+
+                .modal-image__close {
+                    width: 1.7vw;
+                    height: 3vh;
+
+                    margin-left: auto;
+
+                    cursor: pointer;
+                }
+            }
+
+            .modal-title {
+                font-family: "RedHat-Bold";
+                font-size: 5vh;
+
+                margin-bottom: 1vh;
+            }
+
+            .modal-subtitle {
+                font-family: "RedHat-Regular";
+                font-size: 2vh;
+
+                color: #a4a0a0;
+
+                margin-bottom: 4vh;
+            }
+
+            .item-wrapper__cart {
+                background-color: #ffefe0;
+                border-radius: 15px;
+
+                padding: 3vh 2vw 0.5vh 2vw;
+                margin-bottom: 3.6vh;
+
+                .cart-wrapper__footer {
+                    display: flex;
+                    flex-direction: row;
+
+                    align-items: center;
+
+                    margin-bottom: 2.5vh;
+
+                    .cart-footer__title {
+                        font-family: "RedHat-SemiBold";
+                        font-size: 2.4vh;
+
+                        color: rgb(100, 100, 100);
+                    }
+
+                    .cart-footer__cost {
+                        font-family: "RedHat-Bold";
+                        font-size: 3vh;
+
+                        margin-left: auto;
+                    }
+                }
+            }
+
+            .modal-wrapper__button {
+                width: 100%;
+
+                font-family: "RedHat-SemiBold";
+                font-size: 2vh;
+
+                color: #FFFFFF;
+                background-color: rgb(255, 68, 0);
+                border: none;
+                border-radius: 15px;
+
+                padding: 1.4vh 0;
+                margin-bottom: 1.8vh;
+
+                cursor: pointer;
+
+                &:hover {
+                    background-color: rgb(255, 0, 0);
+                }
+            }
+        }
+    }
+}

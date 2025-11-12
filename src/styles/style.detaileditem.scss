@@ -1,0 +1,152 @@
+.item-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 15px;
+
+    background-color: rgb(251, 234, 225);
+
+    padding: 0 1vw 8vh 5vw;
+
+    .item-close {
+        margin: 3vh 0 3vh auto;
+
+        .item-close__icon {
+            width: 2.4vw;
+            height: 4vh;
+
+            color: #000000;
+        }
+    }
+
+    .itemDetailed {
+        padding-right: 5vw;
+
+        .itemDetailed-detailed {
+            display: flex;
+            flex-direction: row;
+            column-gap: 2vw;
+
+            .itemDetailed-image {
+
+                .itemDetailed-img {
+                    width: 30vw;
+                    height: 53.4vh;
+
+                    border: 1px solid rgb(255, 0, 0);
+                    border-radius: 15px;
+                }
+            }
+
+            .itemDetailed-container {
+                display: flex;
+                flex-direction: column;
+                row-gap: 3.2vh;
+
+                font-family: "RedHat-SemiBold";
+                font-size: 2.4vh;
+
+                margin-top: 1.8vh;
+
+                .itemDetailed-name {
+                    font-family: "RedHat-Bold";
+                    font-size: 3.3vh;
+
+                    text-decoration: underline;
+
+                    margin-bottom: 1vh;
+                }
+
+                .itemDetailed-price, .itemDetailed-weight, .itemDetailed-calories {
+
+                    span {
+                        font-family: "RedHat-Bold";
+
+                        text-decoration: underline;
+                        color: rgb(255, 106, 0);
+                    }
+                }
+
+                .itemDetailed-calories {
+                    margin-bottom: 2vh;
+                }
+
+                .itemDetailed-inCart, .itemDetailed-notInCart {
+                    width: fit-content;
+
+                    color: #FFFFFF;
+                    background-color: rgb(153, 153, 153);
+
+                    border-radius: 15px;
+
+                    padding: 0.6vh 1vw;
+                    margin-bottom: 2vh;
+                }
+
+                .itemDetailed-notInCart {
+                    font-family: "RedHat-SemiBold";
+                    font-size: 2.4vh;
+
+                    background-color: rgb(255, 68, 0);
+                    border: none;
+
+                    cursor: pointer;
+                }
+
+                .itemDetailed-ingredients {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 0.5vh;
+
+                    .itemDetailed-ingredients__title {
+                        text-decoration: underline;
+                    }
+
+                    .itemDetailed-ingredients__ing {
+                        text-decoration: underline;
+                        color: rgb(255, 106, 0);
+                        text-transform: lowercase;
+                    }
+                }
+            }
+        }
+    }
+
+    .itemDetailed-description {
+        display: flex;
+        flex-direction: column;
+
+        width: fit-content;
+        max-width: 35vw;
+
+        color: #FFFFFF;
+        background-color: rgb(255, 111, 58);
+        border-radius: 15px;
+
+        align-items: center;
+
+        padding: 2vh 2vw;
+        margin: 3vh auto 0 auto;
+
+        cursor: pointer;
+
+        .itemDetailed-description__title {
+            font-family: "RedHat-SemiBold";
+            font-size: 2.4vh;
+
+            span {
+                color: #000000;
+                text-transform: lowercase;
+            }
+        }
+
+        .itemDetailed-descriptionn {
+            text-align: center;
+            font-family: "RedHat-Regular";
+            font-size: 2vh;
+
+            margin-top: 2vh;
+        }
+    }
+}
+

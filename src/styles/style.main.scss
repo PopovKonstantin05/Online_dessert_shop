@@ -1,0 +1,225 @@
+.main {
+    .main-header {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+
+        margin-bottom: 3vh;
+
+        .main-title {
+            font-family: "RedHat-Bold";
+            font-size: 4.5vh;
+        }
+
+        .main-filters {
+            cursor: pointer;
+            margin-left: auto;
+
+            .main-filters__icon {
+                width: 2vw;
+                height: 3.6vh;
+
+                color: #000000;
+
+                &:hover {
+                    color: rgb(0, 81, 255);
+                }
+            }
+        }
+
+        .main-filters__clear {
+            cursor: pointer;
+
+            .main-clearFilters__icon {
+                width: 2vw;
+                height: 3.6vh;
+
+                color: #000000;
+
+                &:hover {
+                    color: rgb(0, 81, 255);
+                }
+            }
+        }
+    }
+    
+    .main-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1vw;
+        row-gap: 4vh;
+
+        .main-error {
+            display: grid;
+            grid-column: 1 / -1;
+            width: 51vw;
+            text-align: center;
+
+            font-family: "RedHat-Bold";
+            font-size: 3.2vh;
+
+            margin-top: 12vh;
+        }
+    }
+
+    .additional-wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4vh;
+
+        align-items: center;
+
+        margin-top: 5vh;
+
+        .div-noDesserts {
+            font-family: "RedHat-SemiBold";
+            font-size: 3vh;
+        }
+
+        .button-loadMore, .button-reset {
+            font-family: "RedHat-SemiBold";
+            font-size: 2.6vh;
+
+            color: #FFFFFF;
+            background-color: rgb(255, 106, 0);
+
+            border: none;
+            border-radius: 35px;
+
+            padding: 1.5vh 1.4vw;
+            
+            cursor: pointer;
+        }
+    }
+
+    .filters {
+        position: fixed;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        background-color: rgba(0, 0, 0, 0.5);
+
+        .filters-wrap {
+            width: 50vw;
+            height: 60vh;
+            background-color: rgb(254, 227, 212);
+
+            overflow-y: auto;
+
+            border-radius: 15px;
+
+            padding: 3vh 2vw;
+
+            .filters-header {
+                display: flex;
+                flex-direction: row;
+
+                .filters-title {
+                    display: flex;
+
+                    font-family: "RedHat-Bold";
+                    font-size: 3.6vh;
+
+                    margin: 3vh auto 6vh auto;
+                }
+
+                .filters-icon {
+                    width: 1.7vw;
+                    height: 3vh;
+
+                    cursor: pointer;
+                }
+            }
+
+            .filters-wrapper {
+                display: flex;
+                flex-direction: column;
+
+                align-items: center;
+
+                .filters-table {
+                    width: 35vw;
+                    height: 30vh;
+                    border-collapse: collapse;
+                    border: 1px solid #000000;
+
+                    .filters-table__tr {
+                        border: 1px solid #000000;
+                    }
+
+                    .filters-table__th1 {
+                        font-family: "RedHat-SemiBold";
+                        font-size: 2.4vh;
+
+                        width: 10vw;
+                        border: 1px solid #000000;
+                    }
+
+                    .filters-table__th2 {
+                        display: flex;
+                        flex-direction: row;
+
+                        justify-content: center;
+                        flex-wrap: wrap;
+
+                        row-gap: 2vh;
+                        column-gap: 1vw;
+
+                        margin-top: 0.6vh;
+
+                        .button-categories, .button-categories__active {
+                            font-family: "RedHat-SemiBold";
+                            font-size: 1.9vh;
+
+                            border: 1px solid #000000;
+                            border-radius: 15px;
+
+                            background-color:rgba(0, 0, 0, 0);
+
+                            padding: 0.8vh 0.6vw;
+
+                            cursor: pointer;
+                        }
+                        .button-categories__active {
+                            background-color: #00ff1e;
+                            border: none;
+                        }
+
+                        .filters-table__select {
+                            font-family: "RedHat-Regular";
+                            font-size: 2vh;
+                            
+                            border-radius: 15px;
+                            background-color:rgba(0, 0, 0, 0);
+
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .filters-button {
+                    font-family: "RedHat-SemiBold";
+                    font-size: 2.2vh;
+
+                    background-color: rgb(255, 106, 0);
+
+                    border: none;
+                    border-radius: 15px;
+
+                    padding: 1.4vh 1vw;
+                    margin-top: 5vh;
+
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

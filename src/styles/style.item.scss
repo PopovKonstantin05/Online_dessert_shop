@@ -1,0 +1,134 @@
+.item {
+    position: relative;
+    .item-image__container {
+        margin-bottom: 3.5vh;
+
+        .item-image {
+            width: 16vw;
+            height: 31.5vh;
+
+            border-radius: 10px;
+            border: 2px solid rgb(255, 255, 255);
+
+            cursor: pointer;
+        }
+
+        .item-image__active {
+            border: 2px solid rgb(255, 0, 0);
+        }
+    }
+
+    .item-handleDiv {
+        position: absolute;
+        top: 29vh;
+        left: 3.6vw;
+
+        width: 7vw;
+        height: 3.5vh;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+        border-radius: 30px;
+        border: 1px solid rgb(110, 110, 110);
+        background-color: rgb(255, 68, 0);
+
+        padding: 0.7vh 1vw;
+
+        .item-handleDiv__buttonIncrease, .item-handleDiv__buttonDecrease {
+            font-family: "RedHat-Bold";
+            font-size: 2.2vh;
+            color: #FFFFFF;
+            background-color: transparent;
+
+            border-radius: 35px;
+            border: 2px solid #FFFFFF;
+
+            padding: 0 0.35vw;
+            
+            cursor: pointer;
+
+            &:hover {
+                background-color: #FFFFFF;
+                color: #000000;
+            }
+        }
+
+        .item-handleDiv__buttonDecrease {
+            padding: 0 0.4vw;
+        }
+
+        .item-handleDiv__quantity {
+            font-family: "RedHat-Bold";
+            font-size: 2vh;
+            color: #FFFFFF;
+        }
+    }
+
+    .item-button {
+        position: absolute;
+        top: 29vh;
+        left: 3.65vw;
+
+        display: flex;
+        flex-direction: row;
+        column-gap: 0.5vw;
+
+        width: 9vw;
+        height: 5vh;
+
+        justify-content: center;
+        align-items: center;
+
+        font-family: "RedHat-SemiBold";
+        font-size: 1.7vh;
+        
+        border-radius: 30px;
+        border: 2px solid rgb(110, 110, 110);
+        background-color: #FFFFFF;
+
+        padding: 0.7vh 1vw;
+
+        cursor: pointer;
+
+        .item-button__icon {
+            width: 1.2vw;
+            height: 1.2vw;
+        }
+
+        &:hover {
+            transition: transform 0.5s ease;
+            transform: translateY(-0.6vh);
+        }
+    }
+
+    .item-category {
+        font-family: "RedHat-Regular";
+        font-size: 1.9vh;
+
+        color: rgb(118, 118, 118);
+        margin-bottom: 0.6vh;
+    }
+
+    .item-name {
+        font-family: "RedHat-SemiBold";
+        font-size: 2.3vh;
+
+        color: #000000;
+
+        margin-bottom: 0.8vh;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+    .item-price {
+        font-family: "RedHat-Bold";
+        font-size: 2.5vh;
+
+        color: rgb(255, 106, 0);
+    }
+}
