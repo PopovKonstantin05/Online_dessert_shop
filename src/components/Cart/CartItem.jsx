@@ -7,15 +7,17 @@ import "../../styles/style.cartItem.scss";
 import { deleteFromCart } from "../../store/slices/cartSlice";
 
 export default function CartItem({ name, price, quantity, id }) {
-    const cartItem = { id, name, price, quantity }
-    
+    const cartItem = { id, name, price, quantity };
+
     const dispatch = useDispatch();
 
     const handleDelete = () => {
-        dispatch(deleteFromCart({
-            ...cartItem
-        }))
-    }
+        dispatch(
+            deleteFromCart({
+                ...cartItem,
+            })
+        );
+    };
 
     return (
         <div className="cart-products">
